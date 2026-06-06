@@ -194,7 +194,7 @@ const Index = () => {
       <section className="container mx-auto px-4 lg:px-8 py-12 md:py-16">
         <div className="text-center mb-8 md:mb-12">
           <h2 className="text-2xl md:text-3xl lg:text-5xl font-serif font-bold text-foreground mb-3 md:mb-4">
-            Loved by 10,000+ Customers
+            Loved by 1,000+ Customers
           </h2>
           <p className="text-base md:text-lg text-muted-foreground">
             Join our happy family of saree lovers
