@@ -22,7 +22,7 @@ const Footer = () => {
                 <Facebook className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/kirakart__/"
                 className="text-muted-foreground hover:text-primary transition-fast"
               >
                 <Instagram className="h-5 w-5" />
@@ -44,6 +44,7 @@ const Footer = () => {
                 <Link
                   to="/products"
                   className="text-muted-foreground hover:text-primary transition-fast"
+                  onClick={() => window.scrollTo(0, 0)}
                 >
                   Shop All
                 </Link>
@@ -52,6 +53,7 @@ const Footer = () => {
                 <Link
                   to="/products?category=Silk"
                   className="text-muted-foreground hover:text-primary transition-fast"
+                  onClick={() => window.scrollTo(0, 0)}
                 >
                   Silk Sarees
                 </Link>
@@ -60,6 +62,7 @@ const Footer = () => {
                 <Link
                   to="/products?category=Designer"
                   className="text-muted-foreground hover:text-primary transition-fast"
+                  onClick={() => window.scrollTo(0, 0)}
                 >
                   Designer Collection
                 </Link>
@@ -68,6 +71,7 @@ const Footer = () => {
                 <Link
                   to="/about"
                   className="text-muted-foreground hover:text-primary transition-fast"
+                  onClick={() => window.scrollTo(0, 0)}
                 >
                   About Us
                 </Link>
@@ -83,6 +87,7 @@ const Footer = () => {
                 <Link
                   to="/track-order"
                   className="text-muted-foreground hover:text-primary transition-fast"
+                  onClick={() => window.scrollTo(0, 0)}
                 >
                   Track Order
                 </Link>
@@ -91,6 +96,7 @@ const Footer = () => {
                 <Link
                   to="/shipping-returns"
                   className="text-muted-foreground hover:text-primary transition-fast"
+                  onClick={() => window.scrollTo(0, 0)}
                 >
                   Shipping & Returns
                 </Link>
@@ -99,6 +105,7 @@ const Footer = () => {
                 <Link
                   to="/size-guide"
                   className="text-muted-foreground hover:text-primary transition-fast"
+                  onClick={() => window.scrollTo(0, 0)}
                 >
                   Size Guide
                 </Link>
@@ -107,6 +114,7 @@ const Footer = () => {
                 <Link
                   to="/faq"
                   className="text-muted-foreground hover:text-primary transition-fast"
+                  onClick={() => window.scrollTo(0, 0)}
                 >
                   FAQs
                 </Link>
@@ -130,7 +138,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3 text-muted-foreground">
                 <Mail className="h-5 w-5 flex-shrink-0" />
-                <span className="text-sm">hecselse@gmail.com</span>
+                <span className="text-sm">kirakartsupport@gmail.com</span>
               </li>
             </ul>
           </div>
